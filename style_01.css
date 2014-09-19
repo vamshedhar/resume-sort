@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	background:url(Images/bg.jpg);
+}
+#wrap{
+	background-color:#CCC;
+	width:100%;
+	margin:auto;
+	border:inset 2px #333;
+}
+#header h1{
+	font-size:24px;
+	float:left;
+	margin:10px ;
+	background:#333;
+	color:#FFF;
+	border:inset 2px #333;
+	width:10em;
+	text-align:center;
+}
+#header ul{
+	list-style:none;
+	float:right;
+	margin:10px;
+}
+#header li{
+	float:left;
+	border:2px grey groove;
+	padding:0.1em 1em;
+	margin:0 1em;
+}
+#header a{
+	text-decoration:none;
+	color:black;
+}
+#header a:hover{
+	color:#FFF;
+}
+p#campus{
+	clear:both;
+	text-align:center;;
+	background-color:#FFF;
+	border-top:inset 2px #333;
+	border-bottom:inset 2px #333;
+
+}
+#leftBar{
+	clear:both;
+	float:left;
+	margin: 10px;
+	border:groove 2px #333;
+	background:#333;
+	padding:0px;
+	width:180px;
+}
+#leftBar ul{
+	list-style:none;
+	text-align:left;
+	display:inline;
+
+}
+#leftBar li{
+	margin:5px 10px 10px;
+	
+}
+#leftBar h3{
+	margin:0;
+	background:#CCC;
+	padding:0 10px;
+}
+#leftBar a{
+	text-decoration:none;
+	color:#FFF;
+}
+#screen{
+	margin:10px;
+	padding:10px;
+	
+	float:left;
+	width:940px;
+}
+#screen h2{
+	text-align:center;
+	border-bottom:groove 2px #333;
+}
+#screen #patMedHead{
+	text-align:center;
+}
+#screen #patMedTokNo{
+	float:left;
+}
+#screen #patMedDate{
+	float:right;
+}
+#screen #patMedSubmit{
+	clear:both;
+	text-align:center;
+	border-bottom:groove 2px #333;
+	padding-bottom:10px;
+}
+#screen #patHisId{
+	text-align:center;
+	margin:10px 0;
+}
+#screen #patHisSubmit{
+	text-align:center;
+}
+#screen #daiRepDate{
+	text-align:center;
+	margin:10px 0;
+}
+#screen #daiRepSubmit{
+	text-align:center;
+}
+#footer{
+	clear:both;
+	text-align:center;
+	background:url(Images/back.png);
+}
+
